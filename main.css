@@ -212,6 +212,6 @@ body {
   padding-bottom: 8px;
 }
 
-.list-item:nth-child(even) {
+.list-item:nth-child(odd) {
   background: #eee;
 }
