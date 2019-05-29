@@ -189,7 +189,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 160px 232px auto auto auto auto;
+  grid-template-columns: 160px 232px repeat(5, auto);
   grid-template-rows: 24px auto 56px;
   grid-column-gap: 16px;
   height: 100vh;
@@ -207,8 +207,11 @@ body {
   margin-bottom: 8px;
 }
 
-.city-item,
-.hours-item {
-  margin-top: 4px;
-  margin-bottom: 4px;
+.list-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.list-item:nth-child(even) {
+  background: #eee;
 }
