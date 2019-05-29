@@ -8,413 +8,525 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <div id="app" class="container">
-    <div class="title">Sunshine Index</div>
-    <div class="title">City</div>
-    <div class="title">Year sunshine hours ☀️</div>
-    <div class="title">Summer avg high ℃</div>
-    <div class="title">Winter avg low ℃</div>
-    <div class="title">Year daily mean ℃</div>
-    <div class="title">Year rainy days</div>
-    <div class="sidebar-content">
-      Informational website on sunshine and rainy days per year. Source: Wikipedia.
+  <div class="container">
+    <div class="sidebar">
+      <div class="sidebar-title">Sunshine Index</div>
+      <div class="sidebar-body">
+        Informational website on sunshine and rainy days per year.
+      </div>
+      <div class="sidebar-footer">
+        Source: Wikipedia
+      </div>
     </div>
-    <div class="list">
-      <div class="list-item">Phoenix</div>
-      <div class="list-item">Las Vegas</div>
-      <div class="list-item">Dubai</div>
-      <div class="list-item">Cairo</div>
-      <div class="list-item">Nicosia</div>
-      <div class="list-item">Tel Aviv</div>
-      <div class="list-item">Los Angeles</div>
-      <div class="list-item">Perth</div>
-      <div class="list-item">Miami</div>
-      <div class="list-item">Cape Town</div>
-      <div class="list-item">San Fransisco</div>
-      <div class="list-item">San Diego</div>
-      <div class="list-item">Honolulu</div>
-      <div class="list-item">Marseille</div>
-      <div class="list-item">Dallas</div>
-      <div class="list-item">Athens</div>
-      <div class="list-item">Havana</div>
-      <div class="list-item">Chania</div>
-      <div class="list-item">Lisbon</div>
-      <div class="list-item">Madrid</div>
-      <div class="list-item">Cairns</div>
-      <div class="list-item">Valencia</div>
-      <div class="list-item">New Delhi</div>
-      <div class="list-item">Beijing</div>
-      <div class="list-item">Sydney</div>
-      <div class="list-item">Bangkok</div>
-      <div class="list-item">Mumbai</div>
-      <div class="list-item">Mexico City</div>
-      <div class="list-item">Corfu</div>
-      <div class="list-item">New York City</div>
-      <div class="list-item">Buenos Aires</div>
-      <div class="list-item">Barcelona</div>
-      <div class="list-item">Chicago</div>
-      <div class="list-item">Philadelphia</div>
-      <div class="list-item">Pyongyang</div>
-      <div class="list-item">Rome</div>
-      <div class="list-item">Porto</div>
-      <div class="list-item">Thessaloniki</div>
-      <div class="list-item">Melbourne</div>
-      <div class="list-item">Seattle</div>
-      <div class="list-item">Toronto</div>
-      <div class="list-item">Seoul</div>
-      <div class="list-item">Anchorage</div>
-      <div class="list-item">Wellington</div>
-      <div class="list-item">Singapore</div>
-      <div class="list-item">Sao Paolo</div>
-      <div class="list-item">Auckland</div>
-      <div class="list-item">Vancouver</div>
-      <div class="list-item">Tokyo</div>
-      <div class="list-item">Hong Kong</div>
-      <div class="list-item">Stockholm</div>
-      <div class="list-item">Shanghai</div>
-      <div class="list-item">Moscow</div>
-      <div class="list-item">Amsterdam</div>
-      <div class="list-item">Paris</div>
-      <div class="list-item">London</div>
-      <div class="list-item">Berlin</div>
-      <div class="list-item">Bilbao</div>
-      <div class="list-item">Edinburgh</div>
-      <div class="list-item">Taipei</div>
-      <div class="list-item">Bogota</div>
-      <div class="list-item">Lima</div>
-    </div>
-    <div class="list">
-      <div class="list-item">3,872</div>
-      <div class="list-item">3,825</div>
-      <div class="list-item">3,509</div>
-      <div class="list-item">3,451</div>
-      <div class="list-item">3,314</div>
-      <div class="list-item">3,311</div>
-      <div class="list-item">3,254</div>
-      <div class="list-item">3,177</div>
-      <div class="list-item">3,154</div>
-      <div class="list-item">3,094</div>
-      <div class="list-item">3,062</div>
-      <div class="list-item">3,055</div>
-      <div class="list-item">3,036</div>
-      <div class="list-item">2,858</div>
-      <div class="list-item">2,850</div>
-      <div class="list-item">2,848</div>
-      <div class="list-item">2,831</div>
-      <div class="list-item">2,814</div>
-      <div class="list-item">2,806</div>
-      <div class="list-item">2,744</div>
-      <div class="list-item">2,719</div>
-      <div class="list-item">2,696</div>
-      <div class="list-item">2,685</div>
-      <div class="list-item">2,671</div>
-      <div class="list-item">2,636</div>
-      <div class="list-item">2,630</div>
-      <div class="list-item">2,584</div>
-      <div class="list-item">2,555</div>
-      <div class="list-item">2,546</div>
-      <div class="list-item">2,535</div>
-      <div class="list-item">2,525</div>
-      <div class="list-item">2,524</div>
-      <div class="list-item">2,508</div>
-      <div class="list-item">2,498</div>
-      <div class="list-item">2,492</div>
-      <div class="list-item">2,473</div>
-      <div class="list-item">2,464</div>
-      <div class="list-item">2,426</div>
-      <div class="list-item">2,363</div>
-      <div class="list-item">2,170</div>
-      <div class="list-item">2,066</div>
-      <div class="list-item">2,066</div>
-      <div class="list-item">2,061</div>
-      <div class="list-item">2,057</div>
-      <div class="list-item">2,022</div>
-      <div class="list-item">2,003</div>
-      <div class="list-item">2,003</div>
-      <div class="list-item">1,938</div>
-      <div class="list-item">1,877</div>
-      <div class="list-item">1,836</div>
-      <div class="list-item">1,821</div>
-      <div class="list-item">1,776</div>
-      <div class="list-item">1,731</div>
-      <div class="list-item">1,662</div>
-      <div class="list-item">1,662</div>
-      <div class="list-item">1,633</div>
-      <div class="list-item">1,626</div>
-      <div class="list-item">1,610</div>
-      <div class="list-item">1,427</div>
-      <div class="list-item">1,405</div>
-      <div class="list-item">1,328</div>
-      <div class="list-item">1,230</div>
-    </div>
-    <div class="list">
-      <div class="list-item">41.2</div>
-      <div class="list-item">40.1</div>
-      <div class="list-item">41.0</div>
-      <div class="list-item">34.7</div>
-      <div class="list-item">37.2</div>
-      <div class="list-item">30.2</div>
-      <div class="list-item">29.1</div>
-      <div class="list-item">32.3</div>
-      <div class="list-item">32.8</div>
-      <div class="list-item">26.5</div>
-      <div class="list-item">21.2</div>
-      <div class="list-item">24.7</div>
-      <div class="list-item">31.5</div>
-      <div class="list-item">29.6</div>
-      <div class="list-item">35.8</div>
-      <div class="list-item">34.4</div>
-      <div class="list-item">31.6</div>
-      <div class="list-item">30.5</div>
-      <div class="list-item">28.3</div>
-      <div class="list-item">32.1</div>
-      <div class="list-item">31.5</div>
-      <div class="list-item">30.2</div>
-      <div class="list-item">39.5</div>
-      <div class="list-item">30.9</div>
-      <div class="list-item">26.5</div>
-      <div class="list-item">33.6</div>
-      <div class="list-item">33.6</div>
-      <div class="list-item">26.8</div>
-      <div class="list-item">31.3</div>
-      <div class="list-item">28.9</div>
-      <div class="list-item">30.1</div>
-      <div class="list-item">29.0</div>
-      <div class="list-item">28.9</div>
-      <div class="list-item">30.6</div>
-      <div class="list-item">28.9</div>
-      <div class="list-item">30.6</div>
-      <div class="list-item">25.7</div>
-      <div class="list-item">32.5</div>
-      <div class="list-item">26.6</div>
-      <div class="list-item">24.6</div>
-      <div class="list-item">26.6</div>
-      <div class="list-item">29.6</div>
-      <div class="list-item">-5.2</div>
-      <div class="list-item">20.3</div>
-      <div class="list-item">32.3</div>
-      <div class="list-item">28.0</div>
-      <div class="list-item">23.7</div>
-      <div class="list-item">22.2</div>
-      <div class="list-item">30.8</div>
-      <div class="list-item">31.4</div>
-      <div class="list-item">23.0</div>
-      <div class="list-item">32.2</div>
-      <div class="list-item">24.3</div>
-      <div class="list-item">22.1</div>
-      <div class="list-item">25.2</div>
-      <div class="list-item">23.5</div>
-      <div class="list-item">25.0</div>
-      <div class="list-item">26.0</div>
-      <div class="list-item">19.1</div>
-      <div class="list-item">34.3</div>
-      <div class="list-item">20.3</div>
-      <div class="list-item">26.8</div>
-    </div>
-    <div class="list">
-      <div class="list-item">7.1</div>
-      <div class="list-item">4.1</div>
-      <div class="list-item">14.2</div>
-      <div class="list-item">9.0</div>
-      <div class="list-item">5.2</div>
-      <div class="list-item">9.6</div>
-      <div class="list-item">8.6</div>
-      <div class="list-item">7.7</div>
-      <div class="list-item">15.5</div>
-      <div class="list-item">7.0</div>
-      <div class="list-item">7.8</div>
-      <div class="list-item">9.1</div>
-      <div class="list-item">18.9</div>
-      <div class="list-item">4.9</div>
-      <div class="list-item">2.9</div>
-      <div class="list-item">7.1</div>
-      <div class="list-item">18.6</div>
-      <div class="list-item">8.0</div>
-      <div class="list-item">8.3</div>
-      <div class="list-item">2.7</div>
-      <div class="list-item">17.1</div>
-      <div class="list-item">7.1</div>
-      <div class="list-item">7.6</div>
-      <div class="list-item">-8.4</div>
-      <div class="list-item">8.7</div>
-      <div class="list-item">22.0</div>
-      <div class="list-item">17.3</div>
-      <div class="list-item">7.4</div>
-      <div class="list-item">5.1</div>
-      <div class="list-item">-2.8</div>
-      <div class="list-item">7.4</div>
-      <div class="list-item">8.8</div>
-      <div class="list-item">-8.6</div>
-      <div class="list-item">-3.6</div>
-      <div class="list-item">-10.7</div>
-      <div class="list-item">3.1</div>
-      <div class="list-item">5.2</div>
-      <div class="list-item">2.2</div>
-      <div class="list-item">7.1</div>
-      <div class="list-item">2.0</div>
-      <div class="list-item">-6.7</div>
-      <div class="list-item">-5.9</div>
-      <div class="list-item">-11.4</div>
-      <div class="list-item">13.3</div>
-      <div class="list-item">23.9</div>
-      <div class="list-item">11.7</div>
-      <div class="list-item">7.1</div>
-      <div class="list-item">1.4</div>
-      <div class="list-item">0.9</div>
-      <div class="list-item">14.5</div>
-      <div class="list-item">-3.9</div>
-      <div class="list-item">2.1</div>
-      <div class="list-item">-9.8</div>
-      <div class="list-item">0.8</div>
-      <div class="list-item">2.7</div>
-      <div class="list-item">2.1</div>
-      <div class="list-item">-1.9</div>
-      <div class="list-item">5.1</div>
-      <div class="list-item">1.3</div>
-      <div class="list-item">13.9</div>
-      <div class="list-item">7.6</div>
-      <div class="list-item">14.9</div>
-    </div>
-    <div class="list">
-      <div class="list-item">23.9</div>
-      <div class="list-item">20.8</div>
-      <div class="list-item">27.8</div>
-      <div class="list-item">21.8</div>
-      <div class="list-item">19.7</div>
-      <div class="list-item">20.3</div>
-      <div class="list-item">18.6</div>
-      <div class="list-item">-</div>
-      <div class="list-item">25.1</div>
-      <div class="list-item">16.2</div>
-      <div class="list-item">14.1</div>
-      <div class="list-item">-</div>
-      <div class="list-item">25.4</div>
-      <div class="list-item">15.8</div>
-      <div class="list-item">-</div>
-      <div class="list-item">19.1</div>
-      <div class="list-item">25.2</div>
-      <div class="list-item">18.1</div>
-      <div class="list-item">17.4</div>
-      <div class="list-item">15.0</div>
-      <div class="list-item">25.0</div>
-      <div class="list-item">18.4</div>
-      <div class="list-item">-</div>
-      <div class="list-item">-</div>
-      <div class="list-item">18.5</div>
-      <div class="list-item">28.6</div>
-      <div class="list-item">-</div>
-      <div class="list-item">17.5</div>
-      <div class="list-item">17.5</div>
-      <div class="list-item">-</div>
-      <div class="list-item">17.9</div>
-      <div class="list-item">18.2</div>
-      <div class="list-item">9.9</div>
-      <div class="list-item">55.9</div>
-      <div class="list-item">10.7</div>
-      <div class="list-item">15.2</div>
-      <div class="list-item">15.2</div>
-      <div class="list-item">16.1</div>
-      <div class="list-item">16.0</div>
-      <div class="list-item">11.4</div>
-      <div class="list-item">9.4</div>
-      <div class="list-item">12.5</div>
-      <div class="list-item">-</div>
-      <div class="list-item">12.7</div>
-      <div class="list-item">27.5</div>
-      <div class="list-item">19.2</div>
-      <div class="list-item">15.2</div>
-      <div class="list-item">10.4</div>
-      <div class="list-item">15.4</div>
-      <div class="list-item">23.2</div>
-      <div class="list-item">7.6</div>
-      <div class="list-item">17.1</div>
-      <div class="list-item">5.8</div>
-      <div class="list-item">10.2</div>
-      <div class="list-item">12.4</div>
-      <div class="list-item">11.3</div>
-      <div class="list-item">9.7</div>
-      <div class="list-item">14.7</div>
-      <div class="list-item">-</div>
-      <div class="list-item">23.0</div>
-      <div class="list-item">14.4</div>
-      <div class="list-item">19.2</div>
-    </div>
-    <div class="list">
-      <div class="list-item">37</div>
-      <div class="list-item">27</div>
-      <div class="list-item">30</div>
-      <div class="list-item">14</div>
-      <div class="list-item">43</div>
-      <div class="list-item">71</div>
-      <div class="list-item">36</div>
-      <div class="list-item">47</div>
-      <div class="list-item">135</div>
-      <div class="list-item">104</div>
-      <div class="list-item">73</div>
-      <div class="list-item">42</div>
-      <div class="list-item">89</div>
-      <div class="list-item">53</div>
-      <div class="list-item">81</div>
-      <div class="list-item">87</div>
-      <div class="list-item">80</div>
-      <div class="list-item">78</div>
-      <div class="list-item">117</div>
-      <div class="list-item">59</div>
-      <div class="list-item">155</div>
-      <div class="list-item">46</div>
-      <div class="list-item">40</div>
-      <div class="list-item">71</div>
-      <div class="list-item">135</div>
-      <div class="list-item">130</div>
-      <div class="list-item">77</div>
-      <div class="list-item">125</div>
-      <div class="list-item">129</div>
-      <div class="list-item">122</div>
-      <div class="list-item">100</div>
-      <div class="list-item">79</div>
-      <div class="list-item">124</div>
-      <div class="list-item">118</div>
-      <div class="list-item">90</div>
-      <div class="list-item">79</div>
-      <div class="list-item">147</div>
-      <div class="list-item">85</div>
-      <div class="list-item">139</div>
-      <div class="list-item">152</div>
-      <div class="list-item">146</div>
-      <div class="list-item">109</div>
-      <div class="list-item">115</div>
-      <div class="list-item">124</div>
-      <div class="list-item">166</div>
-      <div class="list-item">107</div>
-      <div class="list-item">136</div>
-      <div class="list-item">165</div>
-      <div class="list-item">114</div>
-      <div class="list-item">138</div>
-      <div class="list-item">100</div>
-      <div class="list-item">121</div>
-      <div class="list-item">106</div>
-      <div class="list-item">132</div>
-      <div class="list-item">111</div>
-      <div class="list-item">110</div>
-      <div class="list-item">101</div>
-      <div class="list-item">124</div>
-      <div class="list-item">124</div>
-      <div class="list-item">166</div>
-      <div class="list-item">181</div>
-      <div class="list-item">18</div>
+    <div class="main">
+      <div class="table">
+        <div class="table-header">
+          <div class="table-header-item">City</div>
+          <div class="table-header-item">Year sunshine hours ☀️</div>
+          <div class="table-header-item">Summer avg high ℃</div>
+          <div class="table-header-item">Year daily mean ℃</div>
+          <div class="table-header-item">Winter avg low ℃</div>
+          <div class="table-header-item">Year rainy days</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Phoenix</div>
+          <div class="table-row-item">3,872</div>
+          <div class="table-row-item">41.2</div>
+          <div class="table-row-item">23.9</div>
+          <div class="table-row-item">7.1</div>
+          <div class="table-row-item">37</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Las Vegas</div>
+          <div class="table-row-item">3,825</div>
+          <div class="table-row-item">40.1</div>
+          <div class="table-row-item">20.8</div>
+          <div class="table-row-item">4.1</div>
+          <div class="table-row-item">27</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Dubai</div>
+          <div class="table-row-item">3,509</div>
+          <div class="table-row-item">41.0</div>
+          <div class="table-row-item">27.8</div>
+          <div class="table-row-item">14.2</div>
+          <div class="table-row-item">30</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Cairo</div>
+          <div class="table-row-item">3,451</div>
+          <div class="table-row-item">34.7</div>
+          <div class="table-row-item">21.8</div>
+          <div class="table-row-item">9.0</div>
+          <div class="table-row-item">14</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Nicosia</div>
+          <div class="table-row-item">3,314</div>
+          <div class="table-row-item">37.2</div>
+          <div class="table-row-item">19.7</div>
+          <div class="table-row-item">5.2</div>
+          <div class="table-row-item">43</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Tel Aviv</div>
+          <div class="table-row-item">3,311</div>
+          <div class="table-row-item">30.2</div>
+          <div class="table-row-item">20.3</div>
+          <div class="table-row-item">9.6</div>
+          <div class="table-row-item">71</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Los Angeles</div>
+          <div class="table-row-item">3,254</div>
+          <div class="table-row-item">29.1</div>
+          <div class="table-row-item">18.6</div>
+          <div class="table-row-item">8.6</div>
+          <div class="table-row-item">36</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Perth</div>
+          <div class="table-row-item">3,177</div>
+          <div class="table-row-item">32.3</div>
+          <div class="table-row-item">-</div>
+          <div class="table-row-item">7.7</div>
+          <div class="table-row-item">47</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Miami</div>
+          <div class="table-row-item">3,154</div>
+          <div class="table-row-item">32.8</div>
+          <div class="table-row-item">25.1</div>
+          <div class="table-row-item">15.5</div>
+          <div class="table-row-item">135</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Cape Town</div>
+          <div class="table-row-item">3,094</div>
+          <div class="table-row-item">26.5</div>
+          <div class="table-row-item">16.2</div>
+          <div class="table-row-item">7.0</div>
+          <div class="table-row-item">104</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">San Fransisco</div>
+          <div class="table-row-item">3,062</div>
+          <div class="table-row-item">21.2</div>
+          <div class="table-row-item">14.1</div>
+          <div class="table-row-item">7.8</div>
+          <div class="table-row-item">73</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">San Diego</div>
+          <div class="table-row-item">3,055</div>
+          <div class="table-row-item">24.7</div>
+          <div class="table-row-item">-</div>
+          <div class="table-row-item">9.1</div>
+          <div class="table-row-item">42</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Honolulu</div>
+          <div class="table-row-item">3,036</div>
+          <div class="table-row-item">31.5</div>
+          <div class="table-row-item">25.4</div>
+          <div class="table-row-item">18.9</div>
+          <div class="table-row-item">89</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Marseille</div>
+          <div class="table-row-item">2,858</div>
+          <div class="table-row-item">29.6</div>
+          <div class="table-row-item">15.8</div>
+          <div class="table-row-item">4.9</div>
+          <div class="table-row-item">53</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Dallas</div>
+          <div class="table-row-item">2,850</div>
+          <div class="table-row-item">35.8</div>
+          <div class="table-row-item">-</div>
+          <div class="table-row-item">2.9</div>
+          <div class="table-row-item">81</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Athens</div>
+          <div class="table-row-item">2,848</div>
+          <div class="table-row-item">34.4</div>
+          <div class="table-row-item">19.1</div>
+          <div class="table-row-item">7.1</div>
+          <div class="table-row-item">87</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Havana</div>
+          <div class="table-row-item">2,831</div>
+          <div class="table-row-item">31.6</div>
+          <div class="table-row-item">25.2</div>
+          <div class="table-row-item">18.6</div>
+          <div class="table-row-item">80</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Chania</div>
+          <div class="table-row-item">2,814</div>
+          <div class="table-row-item">30.5</div>
+          <div class="table-row-item">18.1</div>
+          <div class="table-row-item">8.0</div>
+          <div class="table-row-item">78</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Lisbon</div>
+          <div class="table-row-item">2,806</div>
+          <div class="table-row-item">28.3</div>
+          <div class="table-row-item">17.4</div>
+          <div class="table-row-item">8.3</div>
+          <div class="table-row-item">117</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Madrid</div>
+          <div class="table-row-item">2,744</div>
+          <div class="table-row-item">32.1</div>
+          <div class="table-row-item">15.0</div>
+          <div class="table-row-item">2.7</div>
+          <div class="table-row-item">59</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Cairns</div>
+          <div class="table-row-item">2,719</div>
+          <div class="table-row-item">31.5</div>
+          <div class="table-row-item">25.0</div>
+          <div class="table-row-item">17.1</div>
+          <div class="table-row-item">155</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Valencia</div>
+          <div class="table-row-item">2,696</div>
+          <div class="table-row-item">30.2</div>
+          <div class="table-row-item">18.4</div>
+          <div class="table-row-item">7.1</div>
+          <div class="table-row-item">46</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">New Delhi</div>
+          <div class="table-row-item">2,685</div>
+          <div class="table-row-item">39.5</div>
+          <div class="table-row-item">-</div>
+          <div class="table-row-item">7.6</div>
+          <div class="table-row-item">40</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Beijing</div>
+          <div class="table-row-item">2,671</div>
+          <div class="table-row-item">30.9</div>
+          <div class="table-row-item">-</div>
+          <div class="table-row-item">-8.4</div>
+          <div class="table-row-item">71</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Sydney</div>
+          <div class="table-row-item">2,636</div>
+          <div class="table-row-item">26.5</div>
+          <div class="table-row-item">18.5</div>
+          <div class="table-row-item">8.7</div>
+          <div class="table-row-item">135</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Bangkok</div>
+          <div class="table-row-item">2,630</div>
+          <div class="table-row-item">33.6</div>
+          <div class="table-row-item">28.6</div>
+          <div class="table-row-item">22.0</div>
+          <div class="table-row-item">130</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Mumbai</div>
+          <div class="table-row-item">2,584</div>
+          <div class="table-row-item">33.6</div>
+          <div class="table-row-item">-</div>
+          <div class="table-row-item">17.3</div>
+          <div class="table-row-item">77</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Mexico City</div>
+          <div class="table-row-item">2,555</div>
+          <div class="table-row-item">26.8</div>
+          <div class="table-row-item">17.5</div>
+          <div class="table-row-item">7.4</div>
+          <div class="table-row-item">125</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Corfu</div>
+          <div class="table-row-item">2,546</div>
+          <div class="table-row-item">31.3</div>
+          <div class="table-row-item">17.5</div>
+          <div class="table-row-item">5.1</div>
+          <div class="table-row-item">129</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">New York City</div>
+          <div class="table-row-item">2,535</div>
+          <div class="table-row-item">28.9</div>
+          <div class="table-row-item">-</div>
+          <div class="table-row-item">-2.8</div>
+          <div class="table-row-item">122</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Buenos Aires</div>
+          <div class="table-row-item">2,525</div>
+          <div class="table-row-item">30.1</div>
+          <div class="table-row-item">17.9</div>
+          <div class="table-row-item">7.4</div>
+          <div class="table-row-item">100</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Barcelona</div>
+          <div class="table-row-item">2,524</div>
+          <div class="table-row-item">29.0</div>
+          <div class="table-row-item">18.2</div>
+          <div class="table-row-item">8.8</div>
+          <div class="table-row-item">79</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Chicago</div>
+          <div class="table-row-item">2,508</div>
+          <div class="table-row-item">28.9</div>
+          <div class="table-row-item">9.9</div>
+          <div class="table-row-item">-8.6</div>
+          <div class="table-row-item">124</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Philadelphia</div>
+          <div class="table-row-item">2,498</div>
+          <div class="table-row-item">30.6</div>
+          <div class="table-row-item">55.9</div>
+          <div class="table-row-item">-3.6</div>
+          <div class="table-row-item">118</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Pyongyang</div>
+          <div class="table-row-item">2,492</div>
+          <div class="table-row-item">28.9</div>
+          <div class="table-row-item">10.7</div>
+          <div class="table-row-item">-10.7</div>
+          <div class="table-row-item">90</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Rome</div>
+          <div class="table-row-item">2,473</div>
+          <div class="table-row-item">30.6</div>
+          <div class="table-row-item">15.2</div>
+          <div class="table-row-item">3.1</div>
+          <div class="table-row-item">79</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Porto</div>
+          <div class="table-row-item">2,464</div>
+          <div class="table-row-item">25.7</div>
+          <div class="table-row-item">15.2</div>
+          <div class="table-row-item">5.2</div>
+          <div class="table-row-item">147</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Thessaloniki</div>
+          <div class="table-row-item">2,426</div>
+          <div class="table-row-item">32.5</div>
+          <div class="table-row-item">16.1</div>
+          <div class="table-row-item">2.2</div>
+          <div class="table-row-item">85</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Melbourne</div>
+          <div class="table-row-item">2,363</div>
+          <div class="table-row-item">26.6</div>
+          <div class="table-row-item">16.0</div>
+          <div class="table-row-item">7.1</div>
+          <div class="table-row-item">139</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Seattle</div>
+          <div class="table-row-item">2,170</div>
+          <div class="table-row-item">24.6</div>
+          <div class="table-row-item">11.4</div>
+          <div class="table-row-item">2.0</div>
+          <div class="table-row-item">152</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Toronto</div>
+          <div class="table-row-item">2,066</div>
+          <div class="table-row-item">26.6</div>
+          <div class="table-row-item">9.4</div>
+          <div class="table-row-item">-6.7</div>
+          <div class="table-row-item">146</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Seoul</div>
+          <div class="table-row-item">2,066</div>
+          <div class="table-row-item">29.6</div>
+          <div class="table-row-item">12.5</div>
+          <div class="table-row-item">-5.9</div>
+          <div class="table-row-item">109</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Anchorage</div>
+          <div class="table-row-item">2,061</div>
+          <div class="table-row-item">-5.2</div>
+          <div class="table-row-item">-</div>
+          <div class="table-row-item">-11.4</div>
+          <div class="table-row-item">115</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Wellington</div>
+          <div class="table-row-item">2,057</div>
+          <div class="table-row-item">20.3</div>
+          <div class="table-row-item">12.7</div>
+          <div class="table-row-item">13.3</div>
+          <div class="table-row-item">124</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Singapore</div>
+          <div class="table-row-item">2,022</div>
+          <div class="table-row-item">32.3</div>
+          <div class="table-row-item">27.5</div>
+          <div class="table-row-item">23.9</div>
+          <div class="table-row-item">166</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Sao Paolo</div>
+          <div class="table-row-item">2,003</div>
+          <div class="table-row-item">28.0</div>
+          <div class="table-row-item">19.2</div>
+          <div class="table-row-item">11.7</div>
+          <div class="table-row-item">107</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Auckland</div>
+          <div class="table-row-item">2,003</div>
+          <div class="table-row-item">23.7</div>
+          <div class="table-row-item">15.2</div>
+          <div class="table-row-item">7.1</div>
+          <div class="table-row-item">136</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Vancouver</div>
+          <div class="table-row-item">1,938</div>
+          <div class="table-row-item">22.2</div>
+          <div class="table-row-item">10.4</div>
+          <div class="table-row-item">1.4</div>
+          <div class="table-row-item">165</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Tokyo</div>
+          <div class="table-row-item">1,877</div>
+          <div class="table-row-item">30.8</div>
+          <div class="table-row-item">15.4</div>
+          <div class="table-row-item">0.9</div>
+          <div class="table-row-item">114</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Hong Kong</div>
+          <div class="table-row-item">1,836</div>
+          <div class="table-row-item">31.4</div>
+          <div class="table-row-item">23.2</div>
+          <div class="table-row-item">14.5</div>
+          <div class="table-row-item">138</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Stockholm</div>
+          <div class="table-row-item">1,821</div>
+          <div class="table-row-item">23.0</div>
+          <div class="table-row-item">7.6</div>
+          <div class="table-row-item">-3.9</div>
+          <div class="table-row-item">100</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Shanghai</div>
+          <div class="table-row-item">1,776</div>
+          <div class="table-row-item">32.2</div>
+          <div class="table-row-item">17.1</div>
+          <div class="table-row-item">2.1</div>
+          <div class="table-row-item">121</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Moscow</div>
+          <div class="table-row-item">1,731</div>
+          <div class="table-row-item">24.3</div>
+          <div class="table-row-item">5.8</div>
+          <div class="table-row-item">-9.8</div>
+          <div class="table-row-item">106</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Amsterdam</div>
+          <div class="table-row-item">1,662</div>
+          <div class="table-row-item">22.1</div>
+          <div class="table-row-item">10.2</div>
+          <div class="table-row-item">0.8</div>
+          <div class="table-row-item">132</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Paris</div>
+          <div class="table-row-item">1,662</div>
+          <div class="table-row-item">25.2</div>
+          <div class="table-row-item">12.4</div>
+          <div class="table-row-item">2.7</div>
+          <div class="table-row-item">111</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">London</div>
+          <div class="table-row-item">1,633</div>
+          <div class="table-row-item">23.5</div>
+          <div class="table-row-item">11.3</div>
+          <div class="table-row-item">2.1</div>
+          <div class="table-row-item">110</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Berlin</div>
+          <div class="table-row-item">1,626</div>
+          <div class="table-row-item">25.0</div>
+          <div class="table-row-item">9.7</div>
+          <div class="table-row-item">-1.9</div>
+          <div class="table-row-item">101</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Bilbao</div>
+          <div class="table-row-item">1,610</div>
+          <div class="table-row-item">26.0</div>
+          <div class="table-row-item">14.7</div>
+          <div class="table-row-item">5.1</div>
+          <div class="table-row-item">124</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Edinburgh</div>
+          <div class="table-row-item">1,427</div>
+          <div class="table-row-item">19.1</div>
+          <div class="table-row-item">-</div>
+          <div class="table-row-item">1.3</div>
+          <div class="table-row-item">124</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Taipei</div>
+          <div class="table-row-item">1,405</div>
+          <div class="table-row-item">34.3</div>
+          <div class="table-row-item">23.0</div>
+          <div class="table-row-item">13.9</div>
+          <div class="table-row-item">166</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Bogota</div>
+          <div class="table-row-item">1,328</div>
+          <div class="table-row-item">20.3</div>
+          <div class="table-row-item">14.4</div>
+          <div class="table-row-item">7.6</div>
+          <div class="table-row-item">181</div>
+        </div>
+        <div class="table-row">
+          <div class="table-row-item">Lima</div>
+          <div class="table-row-item">1,230</div>
+          <div class="table-row-item">26.8</div>
+          <div class="table-row-item">19.2</div>
+          <div class="table-row-item">14.9</div>
+          <div class="table-row-item">18</div>
+        </div>
+      </div>
     </div>
   </div>
 
-
-  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script> -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script> -->
-  <!-- <script>
-    var app = new Vue({
-      el: '#app',
-      data: {
-        message: 'Hello Vue!'
-      }
-    });
-  </script> -->
 </body>
 </html>
